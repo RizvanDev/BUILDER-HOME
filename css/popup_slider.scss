@@ -1,0 +1,18 @@
+.popup__content_slider{
+	min-width: 400px;
+	min-height: 230px;
+	overflow: hidden;
+		img{
+		object-position: left;
+		padding: 5px;
+		border-radius: 10px;
+		border-top-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+}
+.popup__content_slider .slick-track{
+	display: flex;
+	align-items: flex-start;
+}
+
